@@ -1,0 +1,20 @@
+body{
+    display: flex; 
+    justify-content: space-evenly;
+
+    width: 80%;
+    height: 50px;
+    background-color: tomato;
+    margin: auto;
+
+    border-radius: 10px;
+}
+
+button{
+    position: relative;
+    display: inline-block;
+
+    background-color: wheat;
+    border: none;
+    margin: auto;
+}
