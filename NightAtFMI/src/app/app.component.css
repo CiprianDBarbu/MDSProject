@@ -3,5 +3,44 @@ body{
 }
 
 h1{
+    position: relative;
+    margin-top: 40px;
     text-align: center;
+
+    font-size: 5.5vw;
+}
+
+video{
+    box-shadow: 2px 3px 30px;
+}
+
+.video-fluid {
+    display: block;
+    margin: auto;
+    
+    width: 70%;
+    height: auto;
+}
+
+
+main{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    padding: 8px;
+
+    width: 85%;
+
+    border-radius: 3px;
+    border: 3px solid #994d00;
+
+    box-shadow: 2px 3px 20px;
+}
+
+.section{
+    border: 2px solid  #663300;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    width: auto;
 }

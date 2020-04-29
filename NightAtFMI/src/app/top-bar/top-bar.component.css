@@ -7,7 +7,8 @@ body{
     background-color: tomato;
     margin: auto;
 
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 150px;
 }
 
 button{
