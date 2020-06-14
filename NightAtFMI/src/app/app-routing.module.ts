@@ -3,15 +3,15 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { DownloadComponent } from './download/download.component';
 import { AppComponent } from './app.component';
-import { ForumComponent } from './forum/forum.component';
 import { TutorialComponent } from './tutorial/tutorial.component';
 import { HomeComponent } from './home/home.component';
+import { GaleryComponent } from './galery/galery.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'/home', pathMatch:"full"},
   {path:'home', component:HomeComponent},
   {path:'download', component:  DownloadComponent},
-  {path:'forum', component: ForumComponent},
+  {path:'galerie', component: GaleryComponent},
   {path:'tutorial', component:TutorialComponent},
   {path: '**',  redirectTo: '/home'}
 ];

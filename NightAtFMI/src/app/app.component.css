@@ -2,12 +2,23 @@ body{
     margin: 0;
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(C:\Users\Barbu C\source\repos\MDSProject\NightAtFMI\SomethingStrange-vjYD.ttf);
+}
+
 h1{
     position: relative;
     margin-top: 40px;
     text-align: center;
+    font-family: myFirstFont;
 
-    font-size: 5.5vw;
+    font-size: 6vw;
+    font-weight: 100;
+    color:#8A0303;
+    box-shadow: #000000 0px 0px 25px 20px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/397/496/non_2x/beautiful-dark-wood-textured-background-design-vector.jpg");
+    
 }
 
 h2{
@@ -73,6 +84,7 @@ hr{
 .btn{
     width: 190px;
     height: 90px;
+    font-family: myFirstFont;
 
     background-color: #663300;
     border: none;

@@ -1,6 +1,6 @@
 body{
     margin: 0;
-}
+    }
 
 h1{
     position: relative;
@@ -17,16 +17,13 @@ h2{
 }
 
 
-video{
-    box-shadow: 2px 3px 30px;
-}
-
-.video-fluid {
+header img{
     display: block;
+
+    width: 60%;
     margin: auto;
-    
-    width: 70%;
-    height: auto;
+
+    box-shadow: 0px 0px 18px 15px;
 }
 
 
@@ -37,34 +34,33 @@ main{
     padding: 20px;
 
     width: 85%;
-
-    border-radius: 3px;
-    border: 3px solid #994d00;
-
-    box-shadow: 2px 3px 20px;
 }
 
 hr{
     width: 100%;
     height: 10px;
 	border: 0;
-	box-shadow: 0 10px 10px -10px #663300 inset;
+	box-shadow: 0 10px 10px -10px inset;
 }
 
 .section{
     padding: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-family: myFirstFont;
+    background-image: url(https://img.freepik.com/free-photo/black-marble-concrete-background_124337-132.jpg?size=626&ext=jpghttps://us.123rf.com/450wm/peekeedee1/peekeedee11811/peekeedee1181100391/112672196-dark-grey-black-slate-background-or-texture-.jpg?ver=6);
 
-    border: 2px solid  #663300;
+    border: 2px solid #000000 ;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 
-    width: auto;
-}
+    box-shadow:  0px 0px 20px 15px #000000;
 
-.section{
+    width: auto;
+    
     font-size: 17px;
 }
+
 
 .section a,abbr{
     color: unset;
@@ -73,23 +69,29 @@ hr{
 .btn{
     width: 190px;
     height: 90px;
+    font-family: myFirstFont;
+    color: #A4A1A1;
 
-    background-color: #663300;
+    background-image: url("https://www.designyourway.net/drb/ths/diverse/blacktextures/77462229.jpg");
     border: none;
-    color: white;
     padding: 12px 30px;
     margin-right: 8px;
     cursor: pointer;
     font-size: 20px;
     border-radius: 6px;
-} 
+    transition: box-shadow 1s;
+}
+
+.btn:hover{
+    box-shadow:inset -10px 0 20px 0px #8A0303 ;
+}
 
 .side{
     right: 0;
     width: 200px;
     
 
-    position: absolute;
+    position: fixed;
     display: inline-flexbox;
     flex-direction: column;
   

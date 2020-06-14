@@ -6,9 +6,9 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { BottomSectionComponent } from './bottom-section/bottom-section.component';
 import { TutorialComponent } from './tutorial/tutorial.component';
 import { DownloadComponent } from './download/download.component';
-import { ForumComponent } from './forum/forum.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { GaleryComponent } from './galery/galery.component';
 
 
 @NgModule({
@@ -18,8 +18,8 @@ import { HomeComponent } from './home/home.component';
     BottomSectionComponent,
     TutorialComponent,
     DownloadComponent,
-    ForumComponent,
-    HomeComponent
+    HomeComponent,
+    GaleryComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,20 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(C:\Users\Barbu C\source\repos\MDSProject\NightAtFMI\SomethingStrange-vjYD.ttf);
+}
+
 footer{
     text-align: center;
+    font-family: myFirstFont;
+    font-weight: lighter;
+
+    color:  #ffffff;
 
     margin-top:150px;
     margin-bottom: 50px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: lighter;
 }

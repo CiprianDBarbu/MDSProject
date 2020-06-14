@@ -1,5 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 body{
     margin: 10;
-    background-color:  #f2e6d9;
+    background-image: url("https://cdn.wallpapersafari.com/80/25/nJU80H.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
 }

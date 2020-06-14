@@ -1,0 +1,17 @@
+.table_container{
+    display: block;
+    margin-left: 30%;
+
+}
+
+
+table{
+    border-collapse: collapse;
+    border: 1px solid #ffffff;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+table, th, td {
+    border: 1px solid #ffffff;
+  }
